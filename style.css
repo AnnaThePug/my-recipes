@@ -1,0 +1,42 @@
+@import url(//fonts.googleapis.com/css?family=Carrois+Gothic+SC);
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  
+}
+
+header {
+  text-align: center;
+  }
+
+header ul {
+  margin: 0;
+  padding: 20px 0;
+  
+}
+
+header h1{
+  color: rgb(239, 66, 41);
+  font-size: 3em
+}
+
+header nav {
+  border: 1px solid #878787;
+  border-left: none;
+  border-right: none;
+  
+  
+}
+
+header nav li {
+  display: inline-block;
+  font-family: 'Carrois Gothic SC', sans-serif;
+  padding: 0 20px;
+  
+}
+
+header nav a {
+  text-decoration: none;
+  color: #333;
+  
+}

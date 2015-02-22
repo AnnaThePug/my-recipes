@@ -2,17 +2,15 @@
 .container {
   width: 1000px;
   margin: 0 auto;
-  
 }
 
 header {
   text-align: center;
-  }
+}
 
 header ul {
   margin: 0;
   padding: 20px 0;
-  
 }
 
 header h1{
@@ -24,19 +22,58 @@ header nav {
   border: 1px solid #878787;
   border-left: none;
   border-right: none;
-  
-  
 }
 
 header nav li {
   display: inline-block;
   font-family: 'Carrois Gothic SC', sans-serif;
   padding: 0 20px;
-  
 }
 
 header nav a {
   text-decoration: none;
   color: #333;
+}
+
+.recipe-info {
+  border: 2px solid #83B838;
+  padding: 36px 280px 50px 62px;
+  font-family: 'Carrois Gothic SC', sans-serif;
+  position:relative;
+}
+
+.content {
+  margin: 20px 0;
+}
+
+.recipe-info h2{
+  margin: 0 0 8px;
+  text-transform: uppercase;
   
+}
+
+.recipe-meta{
+  color: #83B838;
+}
+
+.user-interactions {
+  position: absolute;
+  top: 36px;
+  right: 10px;
+  width: 240px; 
+}
+
+.rating {
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+
+.rating .number{
+  display: block;
+  font-size: 48px;
+}
+
+.rating span {
+  color: #999
 }

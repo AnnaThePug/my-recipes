@@ -37,9 +37,22 @@ header nav a {
 
 .recipe-info {
   border: 2px solid #83B838;
-  padding: 36px 280px 50px 62px;
+  padding: 36px 260px 50px 62px;
   font-family: 'Carrois Gothic SC', sans-serif;
   position:relative;
+}
+
+.recipe-body{
+  position: relative; 
+}
+
+.recipe-body figure img {
+  max-width: 580px;
+  margin-top: -50px;
+  border: 20px solid #fff;
+  border-top: none;
+  border-bottom: none;
+  
 }
 
 .content {
@@ -75,5 +88,5 @@ header nav a {
 }
 
 .rating span {
-  color: #999
+  color: #999;
 }
